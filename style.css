@@ -53,7 +53,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-left: 10vw;
-    background-image: url('media/blue-dots.JPG');
+    background-image: url('media/blue-dots.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -76,7 +76,7 @@
     font-family: 'Bebas Neue', sans-serif;
     font-size: clamp(5rem, 50vw, 55rem);
     color: transparent;
-    background-image: url('media/blue-dots.JPG');
+    background-image: url('media/blue-dots.jpg');
     background-size: cover;
     background-position: center;
     background-clip: text;
