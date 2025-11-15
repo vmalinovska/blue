@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLUE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="history.html">HISTORY</a></li>
+            <li><a href="gallery.html">LIFE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="contact">
+
+    <h1>enjoying the <span style="color: var(--light-blue)"> page</span>?</h1>
+    <p>Leave your <i>feedback</i>!</p>
+    <form class="contact-form">
+        <label for="email">your <span style="color: var(--light-blue)">e-mail</span> goes here:</label>
+        <input
+                type="text"
+                id="email"
+                name="email"
+                placeholder="ex. niceguy123@email.com"
+                required>
+
+        <label for="topic">the <span style="color: var(--light-blue)">topic</span> of the message and your <span style="color: var(--light-blue)">message</span> go here:</label>
+        <select id="topic" name="topic">
+            <option value="general">feedback</option>
+            <option value="project">about the project</option>
+            <option value="cooperation">cooperation</option>
+            <option value="other">other</option>
+        </select>
+
+        <textarea
+                id="message"
+                name="message"
+                placeholder="Wow, your page is so cool! Good job :3"
+                rows="6"
+                required></textarea>
+        <div class="button">
+            <input type="submit" value="SEND" class="submit-btn">
+        </div>
+    </form>
+    <div id="thank-you" class="thank-you">Thanks!</div>
+</main>
+
+
+<footer>
+    <p>Veronika Malinovska</p>
+</footer>
+</body>
+<script src="contact-form.js"></script>
+</html>
